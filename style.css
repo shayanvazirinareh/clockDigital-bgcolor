@@ -1,0 +1,39 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: rgba(25, 35, 92, 0.945);
+}
+
+.desain-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  top: 15rem;
+  left: 0;
+  background-color: rgba(196, 14, 252, 0.384);
+  width: 15rem;
+  height: 5rem;
+  border-radius: 3rem;
+}
+.desain-div .clock {
+  transition: all 500ms;
+  cursor: pointer;
+}
+.desain-div .clock0 {
+  color: rgb(217, 228, 217);
+}
+.desain-div .clock1 {
+  color: gold;
+}
+.desain-div .clock2 {
+  color: rgba(253, 66, 25, 0.995);
+}
+
+/*# sourceMappingURL=style.css.map */
